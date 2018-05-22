@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Tech } from '../tech';
-import { TECHSORT } from 
+//import { TECHSORT } from 
 @Component({
   selector: 'app-techsort',
   templateUrl: './techsort.component.html',
