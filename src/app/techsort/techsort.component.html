@@ -1,7 +1,17 @@
-<div>
-  <label>
-    <input [(ngModel)]='hero.name' placeholder='name'>
-  </label>
-</div>
-<div><span>id: </span>{{ tech.id }}</div>
-<div><span>name: </span>{{ tech.name }}</div>
+<form>
+  <div>
+    <label>Select NASA Technology: </label>
+    <br>
+    <select name='techsort'>
+      <option value='TA_1'>Launch Propulsion Systems</option>
+      <option value='TA_2'>In-Space Propulsion Technologies</option>
+      <option value='TA_3'>Space Power and Energy Storage</option>
+      <option value='more_options'>More options</option>
+    </select>
+    <br>
+  </div>
+  <div>
+    <span>id: </span>{{ tech.id }}</div>
+  <div>
+    <span>name: </span>{{ tech.name }}</div>
+</form>
